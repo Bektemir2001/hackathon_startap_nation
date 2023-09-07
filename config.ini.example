@@ -1,0 +1,32 @@
+[system]
+mode = dev
+db_url = postgresql://db_user:db_password@localhost:5432/db
+storage_path = /Users/Projects/new/storage
+api_url = http://localhost:5000
+api_version = 1
+;api_versions = v1
+secret_key = abcd_besoft
+web_url = http://localhost:3000
+api_port = 5000
+
+;[api_v1]
+;modules = auth,profile,book
+
+[mbank]
+authenticate =
+
+[mail_server]
+username =
+password =
+
+[mail_server_google]
+username =
+password =
+
+[payme]
+merchant =
+login = Paycom
+key =
+url = https://test.paycom.uz
+prod_key =
+ikpu =

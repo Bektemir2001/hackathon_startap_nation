@@ -1,0 +1,7 @@
+.idea
+venv
+result.xlsx
+c.txt
+config.ini
+audios/*
+env.py
